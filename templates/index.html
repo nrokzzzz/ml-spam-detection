@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spam Detection</title>
+    <link rel="stylesheet" href="{{ url_for('static',filename='spamStyle.css') }}">
+    <link rel="icon" href="{{ url_for('static', filename='brain.png') }}">
+
+</head>
+<body>
+    <h1 class="pc-head">
+        Spam Message Detection
+    </h1>
+        <form action="/submit" method="post">
+            
+            <h3>Drop your message here to check it is a Spam or Not message :</h3>
+<textarea
+        id="data"
+        name="data"
+        rows="10"
+        cols="50"
+        placeholder="Type your message here..."
+       
+        required
+        class="textarea"
+        ></textarea>
+       
+        {% if res %}
+        <h3>
+            {{ res }}
+        </h3>
+        {% endif %}
+            <input type="submit" value="Submit">
+        </form>
+
+   
+</body>
+</html>
