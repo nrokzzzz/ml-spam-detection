@@ -7,7 +7,7 @@ itsdangerous==2.2.0
 Jinja2==3.1.6
 joblib==1.5.1
 MarkupSafe==3.0.2
-numpy==2.3.0
+numpy
 packaging==25.0
 scikit-learn==1.7.0
 scipy==1.15.3
