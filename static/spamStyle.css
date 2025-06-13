@@ -14,7 +14,7 @@ html, body {
     font-family: 'Roboto', sans-serif;
 }
 
-/* Optional heading styles */
+
 .pc-head {
     position: absolute;
     top: 30px;
@@ -36,7 +36,7 @@ textarea {
     color: black;
 }
 
-/* Glass effect for form */
+
 form {
     color: white;
     padding: 30px;
@@ -61,7 +61,7 @@ form {
     transform: translate(-50%, -50%);
 }
 
-/* Style for submit button */
+
 input[type="submit"] {
     margin-top: 20px;
     padding: 10px 30px;
